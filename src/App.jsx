@@ -8,8 +8,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <Nabvar/>
+    <div className='relative bg-bgColor h-screen'>
+      <div className='sticky top-0 left-0'>
+        <Nabvar/>
+      </div>
     </div>
   )
 }

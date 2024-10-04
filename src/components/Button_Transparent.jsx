@@ -2,7 +2,9 @@ import React from 'react'
 
 const Button_Transparent = () => {
   return (
-    <div>Button_Transparent</div>
+    <div>
+      <button className='border border-primaryColor text-primaryColor font-bold px-5 py-2 rounded-md text-sm'>Contact Us</button>
+    </div>
   )
 }
 
